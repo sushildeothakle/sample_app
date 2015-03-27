@@ -9,7 +9,8 @@ gem 'sqlite3'
 end 
 group :production do 
 gem 'pg' 
-end  
+end 
+gem'rails_12factor' 
 gem 'execjs'
 gem 'therubyracer'
 # Use SCSS for stylesheets
