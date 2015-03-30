@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
 root 'movies#user'
 get '/user'=> 'movies#user'
+get '/home'=> 'movies#home'
+get '/contact'=>'movies#contact'
+get '/about'=> 'movies#about'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
