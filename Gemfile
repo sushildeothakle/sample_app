@@ -7,6 +7,9 @@ gem 'rails', '4.2.0'
 group :development, :test do 
 gem 'sqlite3' 
 end 
+
+gem 'annotate', '~> 2.6.6'
+
 group :production do 
 gem 'pg' 
 end 
