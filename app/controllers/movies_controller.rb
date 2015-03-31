@@ -12,4 +12,5 @@ end
 def about
 	@title= "About us"
 end
+
 end
