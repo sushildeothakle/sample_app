@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+resources :users
 root 'movies#home'
 get '/user'=> 'movies#user'
 get '/home'=> 'movies#home'
