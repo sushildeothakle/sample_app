@@ -1,4 +1,7 @@
 class UsersController < ApplicationController
+def show
+	@user= User.find(params[:id])
+end
 def new
 	@title="sign up"
 	
@@ -7,9 +10,7 @@ def create()
 	User.create(user_params)
 	
 end
-def show
-	@user= User.find(params[:id])
-end
+
 
 private
 def user_params

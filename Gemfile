@@ -9,6 +9,7 @@ gem 'sqlite3'
 end 
 
 gem 'annotate', '~> 2.6.6'
+gem 'gravatar_image_tag'
 
 group :production do 
 gem 'pg' 
