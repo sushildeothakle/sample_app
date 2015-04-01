@@ -21,7 +21,6 @@ before_save :encrypt_password
 def has_password?(submitted_password)
 	encrypted_password == encrypt(submitted_password)
 end
-
 class << self
    def authenticate(email, submitted_password)
    	user = find_by_email(email)
